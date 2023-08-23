@@ -42,19 +42,19 @@
   display: flex;
   align-items: center;
   margin-left: 20px;
-  width: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
 }
 
 .search-input {
   padding: 0;
   border-radius: 9999px;
-  /* border-radius: 25px; */
   height: 50px;
   font-size: 19px;
-  width: 300px;
+  width: 310px;
   /* border: 2px solid rgba(240, 240, 240, 1); */
   border: none;
-  width: 100%;
   background-color: rgba(240, 240, 240, 1);
   padding-left: 66px;
   text-align: left;
@@ -65,11 +65,12 @@
   min-width: 40px;
 }
 .search-bar i {
-  margin-left: 20px;
+  margin-left: 10px;
   position: absolute;
   font-size: 20px;
 }
 
 .layout__right-sidebar {
   position: fixed;
+  top: 0;
 }
