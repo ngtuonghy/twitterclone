@@ -1,0 +1,29 @@
+.trend {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 100%;
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 10px;
+}
+.trend-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.trend__content {
+  padding: 10px;
+  margin-left: 10px;
+}
+.trend__country {
+  font-size: 13px;
+  font-weight: 100;
+}
+.trend__hashtag {
+  font-weight: bold;
+}
+.trend__post {
+  font-size: 13px;
+  font-weight: 100;
+}

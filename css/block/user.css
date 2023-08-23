@@ -1,0 +1,45 @@
+.user {
+  position: fixed;
+  align-items: center;
+  display: flex;
+  bottom: 0;
+  margin-bottom: 15px;
+  padding: 10px;
+  transition: background-color 0.2s;
+  border-radius: 9999px;
+}
+.user:hover {
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 9999px;
+}
+.user-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user-main {
+  flex-direction: column;
+}
+.user i {
+  margin-left: 70px;
+}
+
+.status {
+  display: flex;
+  padding: 10px 15px;
+  margin-top: 108px;
+  border-bottom: 1px solid #e6ecf0;
+}
+.status__user-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.status-input {
+  height: 100px;
+  border: none;
+  font-size: 20px;
+  width: 100%;
+}
